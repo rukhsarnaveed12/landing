@@ -1,0 +1,280 @@
+.navbar{
+    color: black;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.navbar-collapse a:hover{
+    background-color: black;
+}
+.active{
+    background-color: blueviolet;
+}
+.container-fluid{
+    color: green;
+}
+.navbar-nav{
+    color: black;
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    gap: 10px;
+}
+.h1{
+    font-size: 15px;
+    margin-left: 50px;
+    font-weight: bolder;
+    padding-top: 5%;
+}
+.h22{
+    font-size: 5vw;
+    color: green;  
+}
+.btn{
+        height: 70px;
+        width: 200px;
+        text-align: center;
+        font-size: 15px;
+}
+.img{
+    margin-top: -5%;
+    margin-left: 900px;
+    height:300px; 
+    width:500px;
+}
+.span{
+    margin: auto;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    gap: 30px;
+    flex: wrap;
+}
+.p-2{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    gap: 10px;
+}
+.h2{
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center
+}
+.p1{
+    font-size: 15px;
+    text-align: center;
+}
+.input{
+    width: 200px;
+    margin-left: 20px;
+}
+.rightside1{
+    margin-top: -250px;
+    margin-left: 500px;
+}
+.title1{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .navbar{
+        color: black;
+        width:100%;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .container-fluid{
+        color: green;
+    }
+    .navbar-nav{
+        color: black;
+        display: flex;
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        gap: 10px;
+    }
+    .h1{
+        margin-left: 50px;
+        padding-top: 10%;
+    }
+    .h22{
+        font-size: 20px;
+        color: blue;
+        font-weight: bolder;
+    }
+    .btn{
+        height: 50px;
+        width: 120px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .img{
+        padding-top: -200px;
+        margin-top: -80px;
+        margin-left: 300px;
+        height:50px;
+        width: 50px;
+    }
+    .span{
+        margin: auto;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 20px;
+        text-align: center;
+    }
+    .d-flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        margin: auto;
+        gap: 30px;
+        flex: wrap;
+    }
+    .p-2{
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+        border-radius: 5px;
+        gap: 10px;
+    }
+    .h2{
+        font-size: 10px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center
+    }
+    .p1{
+        font-size: 15px;
+        text-align: center;
+    }
+    .input{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .rightside1{
+        margin-top: -250px;
+        margin-left: 500px;
+    }
+    .title1{
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .navbar{
+        color: black;
+        width:100%;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .container-fluid{
+        color: green;
+    }
+    .navbar-nav{
+        color: black;
+        display: flex;
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        gap: 10px;
+    }
+    .h1{
+        margin-left: 50px;
+        padding-top: 15%;
+    }
+    .h22{
+        font-size: 25px;
+        color: blue;
+        font-weight: bolder;
+    }
+    .btn{
+        height: 50px;
+        width: 120px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .img{
+        display: none;
+    }
+    .span{
+        margin: auto;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 20px;
+        text-align: center;
+    }
+    .d-flex{
+        flex-wrap: wrap;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        margin: auto;
+    }
+    .p-2{
+        height: 120px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        gap: 10px;
+    }
+    .h2{
+        font-size: 10px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center
+    }
+    .p1{
+        font-size: 12px;
+        text-align: center;
+    }
+    .input{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .rightside1{
+        margin:auto;
+        padding: 10px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .title1{
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
